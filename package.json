@@ -4,7 +4,7 @@
   "description": "A simple backend rest api for crud operation for incash test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.3",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
