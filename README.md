@@ -30,6 +30,6 @@ to run unit test on the app
 
 run the script:  npm test
 
-the backend api uses morgan logger for ling activities tofile called access.log
+the backend api uses morgan logger for ling activities to file called access.log
 
 
