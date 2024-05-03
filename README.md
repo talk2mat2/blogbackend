@@ -1,14 +1,15 @@
 to run this app successfully
-ensure that nodejs in stalled on yout laptop
+ensure that nodejs is installed on yout laptop
 then 
-You have first to clone this repo:
+You have to first  clone this repo:
 
 git clone https://github.com/talk2mat2/blogbackend.
 
 
 then when the repository has been cloned:
 
-run the following
+run the following on pc command prompt via visual studio code:
+
 cd BlogBackend
 npm install # installing the dependencies
 npm start # or 'node index'
