@@ -4,16 +4,16 @@ const { Schema } = mongoose;
 
 const userSchema = new Schema(
   {
-    Email: { type: String, required: true, unique: true },
-    Password: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
   },
   { timestamps: true }
 );
 
-UserSchema.methods.verifyPassword = async function (Password) {
-  const match = await bcrypt.compare(Password, this.Password);
+userSchema.methods.verifyPassword = async function (password) {
+  const match = await bcrypt.compare(password, this.password);
 
   if (match) {
     return true;
