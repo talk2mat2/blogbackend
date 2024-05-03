@@ -4,7 +4,8 @@
   "description": "A simple backend rest api for crud operation for incash test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"node index"
   },
   "repository": {
     "type": "git",
