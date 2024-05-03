@@ -20,3 +20,12 @@ after the server is running on your localhost
 you can test the api endpoints on postman url
 
 https://documenter.getpostman.com/view/19230952/2sA3JFCkE4
+
+
+to run unit test on the app
+
+run the script:  npm test
+
+the backend api uses morgan logger for ling activities tofile called access.log
+
+
