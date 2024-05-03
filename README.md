@@ -19,6 +19,9 @@ after the server is running on your localhost
 
 you can test the api endpoints on postman url
 
+you need to run the api locally and install postman
+locally to run the postman collection locally
+
 https://documenter.getpostman.com/view/19230952/2sA3JFCkE4
 
 
